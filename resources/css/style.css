@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  width: 155px;
+}
+
+#mytim {
+  align-items: center;
+  position: relative;
+  left: 10px;
+}
+
+nav {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: black;
+}

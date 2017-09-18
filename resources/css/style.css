@@ -7,6 +7,10 @@
   justify-content: space-between;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .logo {
   display: flex;
   color: MediumAquamarine;
@@ -29,4 +33,33 @@ nav {
 
 a {
   color: black;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.large-column.medium-column.small-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.large-column {
+  width: 630px;
+}
+
+.medium-column {
+  width: 300px;
+}
+
+.small-column {
+  width: 240px;
+}
+
+.tuna {
+  align-items: flex-start;
+  background-image: image("../images/main-story.png");
 }

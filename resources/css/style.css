@@ -3,7 +3,6 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
   justify-content: space-between;
 }
 
@@ -13,7 +12,6 @@ div {
 
 .logo {
   display: flex;
-  color: MediumAquamarine;
   align-items: center;
   width: 155px;
 }
@@ -22,6 +20,10 @@ div {
   align-items: center;
   position: relative;
   left: 10px;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 nav {
@@ -59,7 +61,58 @@ a {
   width: 240px;
 }
 
-.tuna {
-  align-items: flex-start;
-  background-image: image("../images/main-story.png");
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.img-header {
+  color: white;
+}
+
+#main-story {
+  font-size: 40px;
+  background-image: url(../images/main-story.png);
+  width: 629px;
+  height: 300px;
+}
+
+#earth {
+  display: flex;
+  background-image: url(../images/tree.png);
+  width: 299px;
+  height: 300px;
+}
+
+h1#earth {
+  justify-content: center;
+}
+
+#cameras {
+  background-image: url(../images/camera.png);
+  width: 299px;
+  height: 300px;
+}
+
+#cats {
+  background-image: url(../images/cat.png);
+  width: 299px;
+  height: 300px;
+}
+
+.orca {
+  width: 299px;
+  height: 300px;
+}
+
+.burger {
+  width: 299px;
+  height: 300px;
 }

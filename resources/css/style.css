@@ -1,6 +1,6 @@
 /*div borders*/
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 /*header section*/
@@ -49,7 +49,6 @@ a {
   color: white;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
 }
 
 p {
@@ -66,6 +65,7 @@ p {
 }
 
 .tuna-headline {
+  display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../images/main-story.png);
@@ -77,22 +77,42 @@ p {
   font-size: 40px;
 }
 
+.oebr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.orca {
+  width: 300px;
+  height: 300px
+  order: 1;
+}
+
+.burger {
+  width: 300px;
+  height: 300px;
+  order: 2;
+}
+
 .earth {
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(../images/tree.png);
-  width: 299px;
+  width: 300px;
   height: 300px;
+  order: 4;
 }
 
 .research {
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(../images/camera.png);
-  width: 299px;
+  width: 300px;
   height: 300px;
+  order: 3;
 }
 
 /*mid-column*/
@@ -102,9 +122,9 @@ p {
   width: 300px;
 }
 
-.cats {
+.cats-headline {
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   background-image: url(../images/cat.png);
   width: 299px;
@@ -116,4 +136,22 @@ p {
   display: flex;
   flex-direction: column;
   width: 240px;
+}
+
+#bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites-list {
+  display: flex;
+  flex-direction: column;
+  line-height: 3em;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding-left: 20px;
 }

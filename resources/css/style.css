@@ -1,13 +1,15 @@
+/*div borders*/
+div {
+  border: 1px solid black;
+}
+
+/*header section*/
 .header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
-}
-
-div {
-  border: 1px solid black;
 }
 
 .logo {
@@ -37,28 +39,17 @@ a {
   color: black;
 }
 
+/*main content*/
 .main-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.large-column.medium-column.small-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.large-column {
-  width: 630px;
-}
-
-.medium-column {
-  width: 300px;
-}
-
-.small-column {
-  width: 240px;
+.img-headline {
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 p {
@@ -67,52 +58,62 @@ p {
   color: black;
 }
 
-h1 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
+/*left-column*/
+.left-column {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
 }
 
-.img-header {
-  color: white;
-}
-
-#main-story {
-  font-size: 40px;
+.tuna-headline {
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/main-story.png);
   width: 629px;
   height: 300px;
 }
 
-#earth {
+#tuna {
+  font-size: 40px;
+}
+
+.earth {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/tree.png);
   width: 299px;
   height: 300px;
 }
 
-h1#earth {
+.research {
+  display: flex;
   justify-content: center;
-}
-
-#cameras {
+  align-items: center;
   background-image: url(../images/camera.png);
   width: 299px;
   height: 300px;
 }
 
-#cats {
+/*mid-column*/
+.mid-column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.cats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/cat.png);
   width: 299px;
   height: 300px;
 }
 
-.orca {
-  width: 299px;
-  height: 300px;
-}
-
-.burger {
-  width: 299px;
-  height: 300px;
+/*right-column*/
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
 }

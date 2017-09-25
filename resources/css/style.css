@@ -7,9 +7,13 @@ div {
 .header {
   display: flex;
   font-family: Verdana;
+  width: 100%;
+  background-color: white;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
+  position: fixed;
+  z-index: 5;
 }
 
 .logo {
@@ -28,7 +32,7 @@ div {
   font-weight: bold;
 }
 
-nav {
+.header-nav {
   display: flex;
   width: 350px;
   justify-content: space-around;
@@ -43,6 +47,9 @@ a {
 .main-content {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 50px;
+  padding-bottom: 50px;
 }
 
 .img-headline {
@@ -154,4 +161,57 @@ p {
   font-size: 12px;
   color: DimGray;
   padding-left: 20px;
+}
+
+/*footer*/
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#mytim-footer {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mytim-and-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+  position: relative;
+  top: 20px;
 }
